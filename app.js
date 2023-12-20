@@ -24,7 +24,7 @@ function reiniciarJogo() {
 }
 
 function exibeMensagemInicial() {
-    exibeTextoNaTela("h1", "O Jogo");
+    exibeTextoNaTela("h1", "Jogo do número secreto");
     exibeTextoNaTela("p", `Escolha um número entre 1 e ${numeroLimite}`);
 }
 
